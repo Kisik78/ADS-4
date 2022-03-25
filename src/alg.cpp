@@ -16,7 +16,7 @@ int UniBinSearch(int* arr, int len, int value) {
     } else {
         left = midle;
         return UniBinSearch(&(arr[midle + 1]), right - midle, value);
-    } 
+    }
 }
 int countPairs1(int *arr, int len, int value) {
   int uni = 0;
